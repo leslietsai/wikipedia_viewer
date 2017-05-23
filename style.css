@@ -1,0 +1,53 @@
+body {
+	text-align: center;
+	padding: 20px;
+	letter-spacing: 3px;
+}
+
+*:focus {
+    outline: 0;
+    outline: none;
+}
+
+input[type=text] {
+    width: 500px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 50px;
+    background-color: white;
+    background-position: 10px 10px; 
+    padding: 50px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 90%;
+	
+}
+.searchButton {
+  height: 150px;
+  border: 1px solid #FFF;
+  background: #FFF;
+  text-align: center;
+  color: #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 50px;
+  outline: none;
+}
+
+.random, .search {
+   padding: 30px;
+}
+
+.card {
+	padding: 50px 200px;
+	letter-spacing: 1px;
+	border: 2px solid #ccc;
+    border-radius: 4px;
+	width: 1300px;
+	margin: 30px auto;
+	float: none;
+}
